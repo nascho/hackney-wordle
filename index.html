@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Hackney Wordle Application. Play the word puzzle game and test your vocabulary skills.">
+    <meta name="keywords" content="Hackney, Wordle, word puzzle, game, vocabulary, challenge">
+    <meta name="author" content="Nas Choudhury">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hackney - Wordle App</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Hackney - Wordle Application</h1>
+    </header>
+    
+    <hr>
+
+    <article>
+        <h2>How to Play:</h2>
+        <ul>
+            <li>- Each guess must be a valid five letter word.</li>
+            <li>- The colour of a tile will change to show you how close your guess was.</li>  
+            <li>- If the tile turns GREEN, the letter is in the word and correct place.</li>
+            <li>- If the tile turns ORANGE, the letter is in the word but, not in the correct place.</li>
+            <li>- If the tile turns RED, the letter is not in the word.</li>
+            <li>- Use the keyboard to enter your letter from letter A-Z and use Delete to cancel a choice.</li>
+            <li>- Press Enter to submit your suggestion, per row.</li>
+        </ul>
+    </article>
+
+    <main>
+        <div id="board" aria-label="Wordle Board">
+
+        </div>
+    </main>
+
+    <br>
+
+    <section>
+        <h3 id="answer" aria-live="polite"></h3>
+    </section>
+
+    <footer>
+        <div id="left" aria-label="Copyright">
+            <span id="currentYear" aria-hidden="true"></span>
+        </div>
+        <div id="right">
+            Website by Nas Choudhury - <a href="https://web23.uk" target="_blank">@Web23</a>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
