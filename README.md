@@ -9,7 +9,7 @@ This repository is for my application to Hackney Council as a Software / Cloud D
 The site been deployed to an S3 Bucket via AWS, by clicking the link provided you will be forwarded to the site [Hackney Wordle App](http://hackney-wordle.s3-website.eu-west-2.amazonaws.com "Go to Wordle Application").
 
 
-<a href="http://hackney-wordle.s3-website.eu-west-2.amazonaws.com" target="blank">Hackney Wordle App</a>
+<a href="http://hackney-wordle.s3-website.eu-west-2.amazonaws.com" target="_blank">Hackney Wordle App</a>
 
 If your browser blocks access please click the following: [Wordle App - alternative path]( https://hackney-wordle.s3.eu-west-2.amazonaws.com/index.html).
 
